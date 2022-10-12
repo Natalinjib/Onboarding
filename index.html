@@ -65,12 +65,13 @@
           <h1>Logística Inteligente de Punta a Punta</h1>
           <h3>Nuestros socios y clientes que confian en nosotros:</h3>
         </div>
-        <div class="container px-4">
-          <div class="row gx-4 gy-4">
-            <div class="col-12 col-lg-6 col-xl-4">
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
               <div class="card">
                 <div class="partner-container">
-                  <img src="./assets/falabella_logo.png" class="card-img-top" />
+                  <img src="./assets/falabella_logo.png" class="card-img-top"/>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">FALABELLA</h5>
@@ -84,7 +85,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-6 col-xl-4">
+            <div class="carousel-item">
               <div class="card">
                 <div class="partner-container">
                   <img src="./assets/nestle_logo.jpeg" class="card-img-top" />
@@ -101,7 +102,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-6 col-xl-4">
+            <div class="carousel-item">
               <div class="card">
                 <div class="partner-container">
                   <img src="./assets/tottus_logo.png" class="card-img-top" />
@@ -120,9 +121,17 @@
               </div>
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="row gx-5"></div>
-      </div>
     </section>
   </main>
   <footer class="footer d-flex justify-content-center align-items-center container-fluid">

@@ -137,3 +137,23 @@ main {
   align-items: center;
   width: 1280px;
 }
+
+.nosotrosback {
+  background-color: #0171E1;
+}
+
+.img-conteiner {
+  max-width: 600px;
+}
+
+.text-container {
+  width: 400px;
+}
+
+.comunidad-container {
+  background-color: none;
+}
+
+.nav-link:hover {
+  font-size: 20px;
+}
