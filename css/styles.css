@@ -95,22 +95,10 @@
 
 main {
   padding-bottom: 45px;
-  background-color: aqua;
-
-  display: grid;
-  grid-template-areas: "intro";
 }
 
 .footer_info-container {
   padding: 5px;
-}
-
-@media (min-width: 1200px) {
-  .comunidad-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -147,7 +135,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
- /*  width: 1280px; */
+  width: 1280px;
 }
 
 .nosotrosback {
