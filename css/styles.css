@@ -147,7 +147,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1280px;
+ /*  width: 1280px; */
 }
 
 .nosotrosback {
