@@ -313,7 +313,8 @@ select {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {-webkit-appearance: button; }
+[type="submit"] {
+  -webkit-appearance: button; }
   button:not(:disabled),
   [type="button"]:not(:disabled),
   [type="reset"]:not(:disabled),
@@ -8385,132 +8386,5 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-.chazki-logo {
-  width: 150px;
-  margin-right: 20px; }
-
-.navbar {
-  background-color: black;
-  padding: 20px; }
-
-.button-container {
-  width: 200px; }
-
-.join-us_container {
-  background-color: #080808;
-  position: relative; }
-
-.join-us_btn {
-  position: absolute;
-  bottom: 50px;
-  width: 200px;
-  left: calc(50% - 100px); }
-
-.partner-container {
-  height: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.card-img-top {
-  object-fit: scale-down; }
-
-.partners_text-container {
-  padding: 20px; }
-
-.footer {
-  background-color: black;
-  flex-direction: column;
-  padding: 20px; }
-
-.chazki_band-container {
-  width: 100%;
-  max-width: 500px;
-  height: 200px;
-  margin-bottom: 50px; }
-
-.subfooter {
-  margin-top: 20px;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.chazki_band-container img {
-  width: 100%;
-  height: auto; }
-
-.social_networks-container {
-  width: 150px;
-  height: 100px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
-.social_networks-container a img {
-  width: 48px;
-  height: 48px; }
-
-.subfooter_sn-container {
-  width: 340px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.subfooter_sn {
-  width: 350px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-main {
-  padding-bottom: 45px; }
-
-.footer_info-container {
-  padding: 5px; }
-
-@media (min-width: 1200px) {
-  .footer_info-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; } }
-
-@media (max-width: 1200px) {
-  .footer_info-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; } }
-
-.service-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 5px; }
-
-.img-full {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
-.community-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 1280px; }
-
-.nosotrosback {
-  background-color: #0171E1; }
-
-.img-conteiner {
-  max-width: 600px; }
-
-.text-container {
-  width: 400px; }
-
-.comunidad-container {
-  background-color: none; }
-
-.nav-link:hover {
-  font-size: 20px; }
+div {
+  background-color: red; }
