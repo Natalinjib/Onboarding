@@ -1,0 +1,19 @@
+.subfooter {
+    @extend .flex-vertical-centered;
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+  }
+  
+  .subfooter_sn-container {
+    @extend .flex-vertical-centered;
+    width: 340px;
+    justify-content: space-between;
+  }
+  
+  .subfooter_sn {
+    @extend .flex-vertical-centered;
+    width: 350px;
+    justify-content: space-between;
+  }
